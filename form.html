@@ -4,8 +4,11 @@
     </head>
 
     <body>
+
+        <fieldset>
+            <legend>Registration form</legend>
         <h1>University Registration Form</h1>
-        Name of Student: <input type="text"> <br>
+        <label>Name of Student:</label>  <input type="text"> <br>
 
         Father's Name: <input type="text"> <br>
 
@@ -21,8 +24,54 @@
 
         Password: <input type="password"> <br>
 
+        <label>Select your division</label>
+        
+        <select>
+            <option value="Barishal">Barishal</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Barishal">Dhaka</option>
+            <option value="Barishal">Barishal</option>
+        </select>
+        <br>
+
+        <textarea cols="50" rows="5"></textarea>
 
 
+        <button>Welcome</button>
         Submit your picture: <input type="file">
+
+
+
+        <input list="SearchBrowser">
+
+            <datalist id="SearchBrowser">
+                <option value="dhaka"></option>
+                <option value="city of dhaka"></option>
+                <option value="Imranul"></option>
+                <option value="Rifat"></option>
+            </datalist>
+
+            <label>Select your car model</label>
+            <select>
+                <optgroup label="Dhaka">
+                    <option value="DHaka 1">Dhaka</option>
+                    <option value="DHaka 1">Dhaka</option>
+                    <option value="DHaka 1">Dhaka</option>
+                    <option value="DHaka 1">Dhaka</option>
+                    <option value="DHaka 1">Dhaka</option>
+                </optgroup>
+
+                <optgroup label="naogaon">
+                    <option value="DHaka 1">Dhaka</option>
+                    <option value="DHaka 1">Dhaka</option>
+                    <option value="DHaka 1">Dhaka</option>
+                    <option value="DHaka 1">Dhaka</option>
+                    <option value="DHaka 1">Dhaka</option>
+                </optgroup>
+            </select>
+
+
+        </fieldset>
     </body>
 </html>
